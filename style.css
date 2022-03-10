@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ff__01: Georgia, "Times New Roman", Times, serif;
+
+  --ff__02: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  place-content: center;
+}
+
+#app {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+#app h2 {
+  margin-bottom: 1em;
+  font-family: var(--ff__02);
+}
+
+p {
+  margin-bottom: 2em;
+  font-family: var(--ff__02);
+}
+
+#app label {
+  font-family: var(--ff__02);
+}
+
+label {
+  font-family: var(--ff__01);
+  margin-bottom: 0.5em;
+}
+
+input {
+  margin-top: 2em;
+  height: 2em;
+}
+
+.list {
+  width: 100%;
+  margin-top: 3em;
+}
+
+li {
+  list-style-type: lower-alphas;
+  font-family: var(--ff__02);
+}
+
+li:nth-child(even) {
+  color: red;
+}
